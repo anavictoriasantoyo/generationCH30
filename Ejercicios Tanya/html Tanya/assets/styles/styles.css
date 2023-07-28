@@ -1,0 +1,57 @@
+/* Este es un selector universal */
+/* *{
+    background-color: cornflowerblue;
+} */
+hi{
+    text-align: center;
+    margin: 0;
+}
+
+/* body{
+    background-image: url("https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg");
+} */
+
+ /* Pseudoclases */
+div:hover {
+    background-color:orange;
+
+}
+/* Este es selector de tipo o etiqueta */
+h1, 
+h2, {
+    font-family: 'Playfair Display', serif; 
+} 
+
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+/* h2 {
+    
+    color: rebeccapurple;
+
+} */
+
+/* Selector de clase */
+.listas-de-favoritos{
+    color: hotpink
+}
+
+/* Selector de ID */
+#lista-chikistrikis {
+    color:blue
+}
+
+a:visited{
+    color: green;
+
+}
+
+p::first-letter{
+    color: red;
+} 
+
+p::first-line{
+    color: blueviolet;
+}

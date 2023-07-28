@@ -1,0 +1,30 @@
+/* Completa la función que imprima el String
+  "Esta es una oración". */
+
+
+let arr = ["This", "is", "a", "sentence."];
+
+function printOutString() {
+  let sentence = "";
+  for (let i = 0; i < arr.length; i++) {
+    sentence += arr[i];
+    if (i !== arr.length - 1) {
+      sentence += " ";
+    }
+  }
+  console.log(sentence);
+}
+
+printOutString();
+
+
+// Usando join 
+
+let arr = ["This", "is", "a", "sentence."];
+
+function printOutString() {
+  let sentence = arr.join(' ');
+  console.log(sentence);
+}
+
+printOutString();

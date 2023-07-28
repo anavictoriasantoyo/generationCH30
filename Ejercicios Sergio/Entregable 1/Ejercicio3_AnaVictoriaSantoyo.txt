@@ -1,0 +1,24 @@
+/* Write a program to compute the sum and product (multiplication) of an array of
+numbers. Print out the sum and the product.
+Example: Given an array [1, 2, 3, 4] The sum is 10. The product is 24.
+*/
+
+const numeros = [1,2,3,4];
+
+function suma(array) {
+    let suma = 0 
+    for (let i=0; i < array.length; i++){
+        suma = suma + array [i]
+    }
+    console.log ("El resultado de la suma es " + suma );
+}
+suma(numeros);
+
+function multipliación(array) {
+    let producto = 1 
+    for (let i=0; i < array.length; i++){
+        producto = producto * array [i]
+    }
+    console.log (" El resultado de la multipicación es " + producto);
+}
+multipliación(numeros);

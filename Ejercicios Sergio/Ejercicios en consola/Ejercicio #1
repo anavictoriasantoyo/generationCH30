@@ -1,0 +1,15 @@
+// Con ciclo 
+let arr = ["This", "is", "a", "sentence."];
+
+function printOutString() {
+  let oración = "";
+  for (let i = 0; i < arr.length; i++) {
+    oración += arr[i];
+    if (i !== arr.length - 1) {
+      oración += " ";
+    }
+  }
+  console.log(oración);
+}
+
+printOutString();

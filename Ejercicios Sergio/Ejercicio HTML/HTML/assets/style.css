@@ -1,0 +1,10 @@
+/* Este es un selector de etqueta*/ 
+body {
+    background-image: url("../assets/imagen/");
+    font-family: sans-serif;
+}
+
+h1{
+    color: beige;
+    text-align: center;
+}
